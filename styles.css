@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #43cea2;  
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  
+    background: linear-gradient(to right, #185a9d, #43cea2); 
+    width: 100%;
+}
+header {
+    background: #2193b0;  
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0); 
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+nav {
+    background: #00B4DB;  
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB); 
+    background: linear-gradient(to right, #0083B0, #00B4DB); 
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+section {
+    padding: 2rem;
+}
+footer {
+    background: #2193b0;  
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0); 
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #006bff;
+    font-size: 0.9rem;
+}
+footer :hover {
+    background-color: #0056b3;
+}
+.tarjetas-tarifas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .tarjeta-tarifa {
+    flex: 1 1 200px;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .tarjeta-tarifa i {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .tarjeta-tarifa p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .tarjeta-tarifa span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .tarjeta-tarifa:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    background-color: lightblue;
+  }
+.tarjeta-mototaxi {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tarjeta-mototaxi img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .tarjeta-mototaxi .info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .tarjeta-mototaxi button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.95rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tarjeta-mototaxi button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+.tarjeta-mototaxi:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    background-color: lightblue;
+}
